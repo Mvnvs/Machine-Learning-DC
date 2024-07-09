@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>262b2cd6dd2e45cfa6bb6a213a274139</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="problème-noté-td9-et-td10" class="cell markdown">
+<h1>Problème noté (TD9 et TD10)</h1>
+</section>
+<div class="cell raw">
+
+</div>
+<div class="cell code" data-execution_count="1"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:32.742450143Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:32.551451566Z&quot;}">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Pour la gestion du csv</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Pour les maths</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Pour les représentations graphiques</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Pour les modèles de machine learning</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> MinMaxScaler</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition <span class="im">import</span> PCA</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> Ridge, LassoCV</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.neighbors <span class="im">import</span> KNeighborsRegressor</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.cluster <span class="im">import</span> KMeans</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error, r2_score</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>La prochaine étape sera donc d'importer le fichier, dans notre cas,
+nous allons utiliser la librairie pandas dans le but de charger les
+données par le fichier déjà téléchargé</p>
+</div>
+<div class="cell code" data-execution_count="2"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:39.279976784Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:32.742955248Z&quot;}">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> pd.read_csv(<span class="st">&#39;valeursfoncieres-2022.txt&#39;</span>, sep <span class="op">=</span> <span class="st">&#39;|&#39;</span>, low_memory<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span> <span class="pp">FileNotFoundError</span>:</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Erreur lors du chargement du fichier.&quot;</span>)</span></code></pre></div>
+</div>
+<section id="après-avoir-chargé-les-données-on-va-les-regarder-"
+class="cell markdown">
+<h1>Après avoir chargé les données, on va les regarder :</h1>
+</section>
+<div class="cell code" data-execution_count="3"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:39.300880449Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:39.285847789Z&quot;}">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df.head(<span class="dv">5</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Identifiant de document</th>
+      <th>Reference document</th>
+      <th>1 Articles CGI</th>
+      <th>2 Articles CGI</th>
+      <th>3 Articles CGI</th>
+      <th>4 Articles CGI</th>
+      <th>5 Articles CGI</th>
+      <th>No disposition</th>
+      <th>Date mutation</th>
+      <th>Nature mutation</th>
+      <th>...</th>
+      <th>Surface Carrez du 5eme lot</th>
+      <th>Nombre de lots</th>
+      <th>Code type local</th>
+      <th>Type local</th>
+      <th>Identifiant local</th>
+      <th>Surface reelle bati</th>
+      <th>Nombre pieces principales</th>
+      <th>Nature culture</th>
+      <th>Nature culture speciale</th>
+      <th>Surface terrain</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>03/01/2022</td>
+      <td>Vente</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>2.0</td>
+      <td>Appartement</td>
+      <td>NaN</td>
+      <td>24.0</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>03/01/2022</td>
+      <td>Vente</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>S</td>
+      <td>NaN</td>
+      <td>84.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>03/01/2022</td>
+      <td>Vente</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>S</td>
+      <td>NaN</td>
+      <td>88.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>03/01/2022</td>
+      <td>Vente</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>2.0</td>
+      <td>Appartement</td>
+      <td>NaN</td>
+      <td>140.0</td>
+      <td>3.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>04/01/2022</td>
+      <td>Vente</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>T</td>
+      <td>NaN</td>
+      <td>510.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 43 columns</p>
+</div>
+</div>
+</div>
+<section id="on-va-maintenant-choisir-les-colonnes-à-supprimer"
+class="cell markdown">
+<h1>On va maintenant choisir les colonnes à supprimer</h1>
+</section>
+<div class="cell markdown" data-collapsed="false">
+<p>On remarque l'existence de nombreuses colonnes et donc de nombreux
+choix comme variable cible, la plus évidente étant la valeur foncière
+puisque c'est une valeur numérique qui peut être prédite en fonction des
+autres données, mais d'un autre côté nous pouvons également prendre le
+code postal, puisque la prédiction du code postal peut être possible
+grâce aux autres données comme le prix, la taille de la surface etc.</p>
+</div>
+<div class="cell code" data-execution_count="4"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:40.773965949Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:39.300270347Z&quot;}">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df.isnull().<span class="bu">sum</span>() <span class="op">/</span> <span class="bu">len</span>(df) <span class="op">*</span> <span class="dv">100</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<pre><code>Identifiant de document       100.000000
+Reference document            100.000000
+1 Articles CGI                100.000000
+2 Articles CGI                100.000000
+3 Articles CGI                100.000000
+4 Articles CGI                100.000000
+5 Articles CGI                100.000000
+No disposition                  0.000000
+Date mutation                   0.000000
+Nature mutation                 0.000000
+Valeur fonciere                 0.649888
+No voie                        34.733621
+B/T/Q                          95.374019
+Type de voie                   36.984294
+Code voie                       1.026398
+Voie                            1.029290
+Code postal                     1.029816
+Commune                         0.000000
+Code departement                0.000000
+Code commune                    0.000000
+Prefixe de section             95.824295
+Section                         0.004075
+No plan                         0.000000
+No Volume                      99.765792
+1er lot                        66.631142
+Surface Carrez du 1er lot      90.332568
+2eme lot                       89.535278
+Surface Carrez du 2eme lot     96.741752
+3eme lot                       98.134670
+Surface Carrez du 3eme lot     99.635662
+4eme lot                       99.402611
+Surface Carrez du 4eme lot     99.911880
+5eme lot                       99.744130
+Surface Carrez du 5eme lot     99.967481
+Nombre de lots                  0.000000
+Code type local                39.918478
+Type local                     39.918478
+Identifiant local             100.000000
+Surface reelle bati            39.973396
+Nombre pieces principales      39.973396
+Nature culture                 33.830912
+Nature culture speciale        95.934262
+Surface terrain                33.830912
+dtype: float64</code></pre>
+</div>
+</div>
+<section id="voilà-notre-choix-des-colonnes-que-nous-allons-conserver"
+class="cell markdown">
+<h1>Voilà notre choix des colonnes que nous allons conserver:</h1>
+<ul>
+<li>Date de mutation : C'est la date à laquelle l'acte de mutation a été
+signé, au format JJ/MM/AAAA.</li>
+<li>Nature de la mutation : Il s'agit du type de mutation, tel que
+vente, vente en l'état futur d'achèvement, vente de terrain à bâtir,
+adjudication, expropriation ou échange.</li>
+<li>Valeur foncière : C'est le montant ou l'évaluation déclaré(e) dans
+le cadre d'une mutation à titre onéreux. Il représente la valeur du bien
+immobilier. On utilise cette colonne comme label Y pour nos modèles
+supervisés</li>
+<li>B/T/Q (Indice de répétition) : Il s'agit d'un indice de répétition
+qui peut être utilisé pour identifier des informations supplémentaires
+sur la voie ou l'emplacement du bien immobilier.</li>
+<li>Code voie : Ce sont des informations sur la voie, le type de voie,
+par exemple "Rue", "Avenue", etc.</li>
+<li>Code postal : C'est le code postal de la localisation du bien
+immobilier.</li>
+<li>Nombre de lots : C'est le nombre total de lots par disposition,
+c'est-à-dire le nombre de lots associés à une transaction
+immobilière.</li>
+<li>Code Type local : C'est une description plus détaillée du type de
+local.</li>
+<li>Surface réelle bâti : C'est la surface réelle du bâtiment, mesurée
+au sol entre les murs ou séparations.</li>
+<li>Nombre de pièces principales : C'est le nombre de pièces principales
+dans le bien immobilier, excluant les cuisines, salles d'eau et
+dépendances.</li>
+<li>Surface terrain : C'est la contenance du terrain.</li>
+</ul>
+<p>Ces colonnes ont été sélectionnées car elles contiennent des
+informations essentielles et pertinentes pour votre analyse des prix des
+appartements. Elles couvrent des aspects tels que la localisation, les
+caractéristiques du bien, les surfaces et les détails sur la
+transaction.</p>
+</section>
+<div class="cell code" data-execution_count="5"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:40.870627528Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:40.868985223Z&quot;}">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Liste des colonnes à conserver</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>colonnes_a_garder <span class="op">=</span> [</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Date mutation&quot;</span>,</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Nature mutation&quot;</span>,</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Valeur fonciere&quot;</span>,</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;B/T/Q&quot;</span>,</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Type de voie&quot;</span>,</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Code postal&quot;</span>,</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Nombre de lots&quot;</span>,</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Type local&quot;</span>,</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Surface reelle bati&quot;</span>,</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Nombre pieces principales&quot;</span>,</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Surface terrain&quot;</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Sélectionner les colonnes à partir du DataFrame</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df[colonnes_a_garder]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="6"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:40.877878047Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:40.870051099Z&quot;}">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df.head(<span class="dv">5</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date mutation</th>
+      <th>Nature mutation</th>
+      <th>Valeur fonciere</th>
+      <th>B/T/Q</th>
+      <th>Type de voie</th>
+      <th>Code postal</th>
+      <th>Nombre de lots</th>
+      <th>Type local</th>
+      <th>Surface reelle bati</th>
+      <th>Nombre pieces principales</th>
+      <th>Surface terrain</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>03/01/2022</td>
+      <td>Vente</td>
+      <td>55000,00</td>
+      <td>NaN</td>
+      <td>RUE</td>
+      <td>1000.0</td>
+      <td>1</td>
+      <td>Appartement</td>
+      <td>24.0</td>
+      <td>1.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>03/01/2022</td>
+      <td>Vente</td>
+      <td>143000,00</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1480.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>84.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>03/01/2022</td>
+      <td>Vente</td>
+      <td>143000,00</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1480.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>88.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>03/01/2022</td>
+      <td>Vente</td>
+      <td>143000,00</td>
+      <td>NaN</td>
+      <td>RTE</td>
+      <td>1480.0</td>
+      <td>1</td>
+      <td>Appartement</td>
+      <td>140.0</td>
+      <td>3.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>04/01/2022</td>
+      <td>Vente</td>
+      <td>300,00</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1480.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>510.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="7"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:40.951886632Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:40.878120732Z&quot;}">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df.columns</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<pre><code>Index([&#39;Date mutation&#39;, &#39;Nature mutation&#39;, &#39;Valeur fonciere&#39;, &#39;B/T/Q&#39;,
+       &#39;Type de voie&#39;, &#39;Code postal&#39;, &#39;Nombre de lots&#39;, &#39;Type local&#39;,
+       &#39;Surface reelle bati&#39;, &#39;Nombre pieces principales&#39;, &#39;Surface terrain&#39;],
+      dtype=&#39;object&#39;)</code></pre>
+</div>
+</div>
+<section id="il-nous-faut-maintenant-gérer-les-valeurs-nan"
+class="cell markdown">
+<h1>Il nous faut maintenant gérer les valeurs NaN</h1>
+</section>
+<div class="cell code" data-execution_count="8"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:40.952760579Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:40.919856395Z&quot;}">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>df.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 3803885 entries, 0 to 3803884
+Data columns (total 11 columns):
+ #   Column                     Dtype  
+---  ------                     -----  
+ 0   Date mutation              object 
+ 1   Nature mutation            object 
+ 2   Valeur fonciere            object 
+ 3   B/T/Q                      object 
+ 4   Type de voie               object 
+ 5   Code postal                float64
+ 6   Nombre de lots             int64  
+ 7   Type local                 object 
+ 8   Surface reelle bati        float64
+ 9   Nombre pieces principales  float64
+ 10  Surface terrain            float64
+dtypes: float64(4), int64(1), object(6)
+memory usage: 319.2+ MB
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="9"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:41.324312215Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:40.920110271Z&quot;}">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>df.isnull().<span class="bu">sum</span>() <span class="op">/</span> <span class="bu">len</span>(df) <span class="op">*</span> <span class="dv">100</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<pre><code>Date mutation                 0.000000
+Nature mutation               0.000000
+Valeur fonciere               0.649888
+B/T/Q                        95.374019
+Type de voie                 36.984294
+Code postal                   1.029816
+Nombre de lots                0.000000
+Type local                   39.918478
+Surface reelle bati          39.973396
+Nombre pieces principales    39.973396
+Surface terrain              33.830912
+dtype: float64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>On remarque que la majorité des colonnes n'ont que très peu de
+valeurs nulles, mais que cependant la colonne "B/T/Q" possède 95% de
+valeurs nulles, que les colonnes "Type de voie", "Code type local",
+"Type local", "Surface reelle bati", "Nombre pieces principales", et que
+certaines colonnes numériques comme "Valeur fonciere" possède quelques
+valeurs nulles. Nous allons donc remplacer les données manquantes dans
+les colonnes "Type de voie", "Code type local", "Type local", "Surface
+reelle bati", "Nombre pieces principales" par des "None" car nous ne
+connaissons pas la situation. Pour le cas de la colonne "B/T/Q", nous
+allons faire un mapping avec 1 pour le cas "NaN", 2 pour "B", 3 pour "T"
+et 4 pour "Q". Et pour la colonne "Valeur fonciere" nous allons
+remplacer les valeurs nulles par la median de la colonne.</p>
+</div>
+<div class="cell code" data-execution_count="10"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:43.217554919Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:41.327676667Z&quot;}">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Définition du dictionnaire de correspondance</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>mapping <span class="op">=</span> {<span class="st">&quot;B&quot;</span>: <span class="dv">2</span>, <span class="st">&quot;T&quot;</span>: <span class="dv">3</span>, <span class="st">&quot;Q&quot;</span>: <span class="dv">4</span>}</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Application de la transformation sur la colonne &#39;B/T/Q&#39;</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&quot;B/T/Q&quot;</span>] <span class="op">=</span> df[<span class="st">&quot;B/T/Q&quot;</span>].<span class="bu">map</span>(mapping)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Remplacement des chaînes de caractères &quot;NaN&quot; par des valeurs NaN</span></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.replace(<span class="st">&quot;NaN&quot;</span>, np.nan)</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Remplacement des valeurs NaN par 1 dans la colonne &#39;B/T/Q&#39;</span></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&quot;B/T/Q&quot;</span>] <span class="op">=</span> df[<span class="st">&quot;B/T/Q&quot;</span>].fillna(<span class="dv">1</span>)</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Remplacer la virgule par un point décimal dans la colonne &quot;Valeur fonciere&quot; et convertir la colonne en float64</span></span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&quot;Valeur fonciere&quot;</span>] <span class="op">=</span> df[<span class="st">&quot;Valeur fonciere&quot;</span>].<span class="bu">str</span>.replace(<span class="st">&quot;,&quot;</span>, <span class="st">&quot;.&quot;</span>).astype(<span class="bu">float</span>)</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Remplir les valeurs manquantes avec la médiane</span></span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&quot;Valeur fonciere&quot;</span>] <span class="op">=</span> df[<span class="st">&quot;Valeur fonciere&quot;</span>].fillna(df[<span class="st">&quot;Valeur fonciere&quot;</span>].median())</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Remplir les valeurs manquantes dans la colonne &quot;Surface terrain&quot; avec la médiane</span></span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&quot;Surface terrain&quot;</span>] <span class="op">=</span> df[<span class="st">&quot;Surface terrain&quot;</span>].fillna(df[<span class="st">&quot;Surface terrain&quot;</span>].median())</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Remplir les valeurs manquantes dans la colonne &quot;Nombre pieces principales&quot; avec la médiane</span></span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&quot;Nombre pieces principales&quot;</span>] <span class="op">=</span> df[<span class="st">&quot;Nombre pieces principales&quot;</span>].fillna(df[<span class="st">&quot;Nombre pieces principales&quot;</span>].median())</span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Remplir les valeurs manquantes dans la colonne &quot;Surface reelle bati&quot; avec la médiane</span></span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&quot;Surface reelle bati&quot;</span>] <span class="op">=</span> df[<span class="st">&quot;Surface reelle bati&quot;</span>].fillna(df[<span class="st">&quot;Surface reelle bati&quot;</span>].median())</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="11"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:43.509123343Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:43.360966477Z&quot;}">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>df.isnull().<span class="bu">sum</span>() <span class="op">/</span> <span class="bu">len</span>(df) <span class="op">*</span> <span class="dv">100</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<pre><code>Date mutation                 0.000000
+Nature mutation               0.000000
+Valeur fonciere               0.000000
+B/T/Q                         0.000000
+Type de voie                 36.984294
+Code postal                   1.029816
+Nombre de lots                0.000000
+Type local                   39.918478
+Surface reelle bati           0.000000
+Nombre pieces principales     0.000000
+Surface terrain               0.000000
+dtype: float64</code></pre>
+</div>
+</div>
+<section id="les-représentations-graphiques" class="cell markdown"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T10:06:21.524102100Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T10:06:21.500749Z&quot;}">
+<h1>Les représentations graphiques</h1>
+</section>
+<section id="boxplot-pour-déterminer-les-valeurs-aberrantes"
+class="cell markdown" data-collapsed="false">
+<h2>Boxplot pour déterminer les valeurs aberrantes</h2>
+<p>Nous avons considéré qu'il ne pouvait y avoir des valeurs aberrantes
+surtout sur la valeur fonciere, la surface terrain et la surface reelle
+bati donc nous n'avons regardé que ces valeurs-là.</p>
+</section>
+<div class="cell code" data-execution_count="12"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:44.725881824Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:43.511993991Z&quot;}"
+data-collapsed="false">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Créer une figure et des sous-graphiques</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplot pour la colonne &quot;Valeur foncière&quot;</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>].boxplot(df[<span class="st">&quot;Valeur fonciere&quot;</span>])</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>].set_title(<span class="st">&quot;Valeur foncière&quot;</span>)</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>].set_ylabel(<span class="st">&quot;Montant&quot;</span>)</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplot pour la colonne &quot;Surface réelle bâtie&quot;</span></span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].boxplot(df[<span class="st">&quot;Surface reelle bati&quot;</span>])</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].set_title(<span class="st">&quot;Surface réelle bâtie&quot;</span>)</span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].set_ylabel(<span class="st">&quot;Surface (m²)&quot;</span>)</span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplot pour la colonne &quot;Surface terrain&quot;</span></span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">2</span>].boxplot(df[<span class="st">&quot;Surface terrain&quot;</span>])</span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">2</span>].set_title(<span class="st">&quot;Surface terrain&quot;</span>)</span>
+<span id="cb17-17"><a href="#cb17-17" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">2</span>].set_ylabel(<span class="st">&quot;Surface (m²)&quot;</span>)</span>
+<span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-19"><a href="#cb17-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajuster l&#39;espacement entre les sous-graphiques</span></span>
+<span id="cb17-20"><a href="#cb17-20" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb17-21"><a href="#cb17-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-22"><a href="#cb17-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Afficher le graphique</span></span>
+<span id="cb17-23"><a href="#cb17-23" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_61885747438f4f578435d64717659044/ce30bbfe08e2fe7595271a6aa6da0636f95a0470.png" /></p>
+</div>
+</div>
+<div class="cell markdown" data-collapsed="false">
+<p>A présent nous voyons qu'il y a des valeurs aberrantes à supprimer
+donc nous utilisons une fonction pour supprimer les valeurs
+aberrantes</p>
+</div>
+<div class="cell code" data-execution_count="13"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:44.727835694Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:44.726282063Z&quot;}"
+data-collapsed="false">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;def supprimer_valeurs_aberrantes(df, col_name):</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="co">    # Calculer les limites des valeurs aberrantes (Q1 - 1.5*IQR et Q3 + 1.5*IQR)</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co">    Q1 = df[col_name].quantile(0.25)</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="co">    Q3 = df[col_name].quantile(0.75)</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="co">    IQR = Q3 - Q1</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="co">    lower_bound = Q1 - 1.5 * IQR</span></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a><span class="co">    upper_bound = Q3 + 1.5 * IQR</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a><span class="co">    # Supprimer les valeurs aberrantes</span></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="co">    df_cleaned = df[(df[col_name] &gt;= lower_bound) &amp; (df[col_name] &lt;= upper_bound)]</span></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a><span class="co">    return df_cleaned</span></span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a><span class="co">df = supprimer_valeurs_aberrantes(df, &#39;Valeur fonciere&#39;)</span></span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a><span class="co">df = supprimer_valeurs_aberrantes(df, &#39;Surface reelle bati&#39;)</span></span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a><span class="co">df = supprimer_valeurs_aberrantes(df, &#39;Surface terrain&#39;) #A ne pas faire car cela fausse la précision des modèles&quot;&quot;&quot;</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+<pre><code>&quot;def supprimer_valeurs_aberrantes(df, col_name):\n    # Calculer les limites des valeurs aberrantes (Q1 - 1.5*IQR et Q3 + 1.5*IQR)\n    Q1 = df[col_name].quantile(0.25)\n    Q3 = df[col_name].quantile(0.75)\n    IQR = Q3 - Q1\n    lower_bound = Q1 - 1.5 * IQR\n    upper_bound = Q3 + 1.5 * IQR\n\n    # Supprimer les valeurs aberrantes\n    df_cleaned = df[(df[col_name] &gt;= lower_bound) &amp; (df[col_name] &lt;= upper_bound)]\n\n    return df_cleaned\n\ndf = supprimer_valeurs_aberrantes(df, &#39;Valeur fonciere&#39;)\ndf = supprimer_valeurs_aberrantes(df, &#39;Surface reelle bati&#39;)\ndf = supprimer_valeurs_aberrantes(df, &#39;Surface terrain&#39;) #A ne pas faire car cela fausse la précision des modèles&quot;</code></pre>
+</div>
+</div>
+<div class="cell markdown" data-collapsed="false">
+<p>(On regarde les boxplots après avoir changé :) plus le cas</p>
+</div>
+<div class="cell code" data-execution_count="14"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:44.873200613Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:44.728949631Z&quot;}"
+data-collapsed="false">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;# Créer une figure et des sous-graphiques</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="co">fig, axs = plt.subplots(1, 3, figsize=(12, 6))</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplot pour la colonne &quot;Valeur foncière&quot;</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="co">axs[0].boxplot(df[&quot;Valeur fonciere&quot;])</span></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a><span class="co">axs[0].set_title(&quot;Valeur foncière&quot;)</span></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="co">axs[0].set_ylabel(&quot;Montant&quot;)</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplot pour la colonne &quot;Surface réelle bâtie&quot;</span></span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a><span class="co">axs[1].boxplot(df[&quot;Surface reelle bati&quot;])</span></span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a><span class="co">axs[1].set_title(&quot;Surface réelle bâtie&quot;)</span></span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a><span class="co">axs[1].set_ylabel(&quot;Surface (m²)&quot;)</span></span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplot pour la colonne &quot;Surface terrain&quot;</span></span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a><span class="co">axs[2].boxplot(df[&quot;Surface terrain&quot;])</span></span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a><span class="co">axs[2].set_title(&quot;Surface terrain&quot;)</span></span>
+<span id="cb20-17"><a href="#cb20-17" aria-hidden="true" tabindex="-1"></a><span class="co">axs[2].set_ylabel(&quot;Surface (m²)&quot;)</span></span>
+<span id="cb20-18"><a href="#cb20-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-19"><a href="#cb20-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajuster l&#39;espacement entre les sous-graphiques</span></span>
+<span id="cb20-20"><a href="#cb20-20" aria-hidden="true" tabindex="-1"></a><span class="co">plt.tight_layout()</span></span>
+<span id="cb20-21"><a href="#cb20-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-22"><a href="#cb20-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Afficher le graphique</span></span>
+<span id="cb20-23"><a href="#cb20-23" aria-hidden="true" tabindex="-1"></a><span class="co">plt.show()&quot;&quot;&quot;</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+<pre><code>&#39;# Créer une figure et des sous-graphiques\nfig, axs = plt.subplots(1, 3, figsize=(12, 6))\n\n# Boxplot pour la colonne &quot;Valeur foncière&quot;\naxs[0].boxplot(df[&quot;Valeur fonciere&quot;])\naxs[0].set_title(&quot;Valeur foncière&quot;)\naxs[0].set_ylabel(&quot;Montant&quot;)\n\n# Boxplot pour la colonne &quot;Surface réelle bâtie&quot;\naxs[1].boxplot(df[&quot;Surface reelle bati&quot;])\naxs[1].set_title(&quot;Surface réelle bâtie&quot;)\naxs[1].set_ylabel(&quot;Surface (m²)&quot;)\n\n# Boxplot pour la colonne &quot;Surface terrain&quot;\naxs[2].boxplot(df[&quot;Surface terrain&quot;])\naxs[2].set_title(&quot;Surface terrain&quot;)\naxs[2].set_ylabel(&quot;Surface (m²)&quot;)\n\n# Ajuster l\&#39;espacement entre les sous-graphiques\nplt.tight_layout()\n\n# Afficher le graphique\nplt.show()&#39;</code></pre>
+</div>
+</div>
+<div class="cell markdown" data-collapsed="false">
+<p>On cherche maintenant à voir la répartition des données de chaque
+colonne pour pouvoir mapper toutes ces dernieres de sorte à les rendre
+utilisables</p>
+</div>
+<div class="cell code" data-execution_count="15"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:44.873473053Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:44.769549214Z&quot;}">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>sample_df <span class="op">=</span> df.sample(n<span class="op">=</span><span class="dv">1000</span>)  <span class="co"># Échantillon aléatoire de 1000 lignes pour les tests</span></span></code></pre></div>
+</div>
+<section id="diagramme-à-barres-de-la-nature-des-mutations"
+class="cell markdown">
+<h2>Diagramme à barres de la nature des mutations.</h2>
+</section>
+<div class="cell code" data-execution_count="16"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:45.020664496Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:44.890739602Z&quot;}">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>counts <span class="op">=</span> df[<span class="st">&#39;Nature mutation&#39;</span>].value_counts()</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> counts.index</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">&#39;lightblue&#39;</span>, <span class="st">&#39;lightgreen&#39;</span>, <span class="st">&#39;orange&#39;</span>, <span class="st">&#39;pink&#39;</span>]</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>explode <span class="op">=</span> (<span class="fl">0.05</span>, <span class="fl">0.05</span>, <span class="fl">0.1</span>, <span class="fl">0.1</span>, <span class="fl">0.1</span>)</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>plt.bar(labels, counts, color<span class="op">=</span>colors, edgecolor<span class="op">=</span><span class="st">&#39;black&#39;</span>, linewidth<span class="op">=</span><span class="fl">1.2</span>)</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Personnalisation des axes et du titre</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Catégories&#39;</span>)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Nombre&#39;</span>)</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Répartition des catégories de la nature des mutations&#39;</span>)</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajustement des marges</span></span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_61885747438f4f578435d64717659044/62c9ea632a158fbd8e95fefaeb639e0423025669.png" /></p>
+</div>
+</div>
+<div class="cell markdown" data-collapsed="false">
+<p>On remarque qu'il n'y a que 6 valeurs différentes : cela signifie que
+nous aurons 6 valeurs à mapper à savoir Vente, Vente en l'état futur
+d'achèvement, Echange, Vente terrain à bâtir, Adjudication,
+Expropriation</p>
+</div>
+<section id="mapping-des-natures-des-mutations-" class="cell markdown"
+data-collapsed="false">
+<h2>Mapping des natures des mutations :</h2>
+</section>
+<div class="cell code" data-execution_count="17"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:45.117550083Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:45.021402458Z&quot;}"
+data-collapsed="false">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>naturemapping<span class="op">=</span>{<span class="st">&quot;Vente&quot;</span>:<span class="dv">1</span>, <span class="st">&quot;Vente en l&#39;état futur d&#39;achèvement&quot;</span>:<span class="dv">2</span>, <span class="st">&quot;Echange&quot;</span>:<span class="dv">3</span>, <span class="st">&quot;Vente terrain à bâtir&quot;</span>:<span class="dv">4</span>, <span class="st">&quot;Adjudication&quot;</span>:<span class="dv">5</span>, <span class="st">&quot;Expropriation&quot;</span>:<span class="dv">6</span>}</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Nature mutation&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;Nature mutation&#39;</span>].<span class="bu">map</span>(naturemapping)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="18"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:45.119532958Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:45.117913464Z&quot;}"
+data-collapsed="false">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co">#print(df[&#39;Nature mutation&#39;])</span></span></code></pre></div>
+</div>
+<section id="diagramme-des-dates-de-mutation" class="cell markdown"
+data-collapsed="false">
+<h2>Diagramme des dates de mutation</h2>
+</section>
+<div class="cell markdown" data-collapsed="false">
+<p>La répartition des mois de transaction</p>
+</div>
+<div class="cell code" data-execution_count="19"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:45.280864171Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:45.121460960Z&quot;}"
+data-collapsed="false">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>sample_df[<span class="st">&#39;Date mutation&#39;</span>] <span class="op">=</span> pd.to_datetime(sample_df[<span class="st">&#39;Date mutation&#39;</span>], dayfirst<span class="op">=</span><span class="va">True</span>)  <span class="co"># Spécifier dayfirst=True pour le format jour/mois/année</span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>sample_df[<span class="st">&#39;Month&#39;</span>] <span class="op">=</span> sample_df[<span class="st">&#39;Date mutation&#39;</span>].dt.month</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">&#39;lightblue&#39;</span>]</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>edgecolor <span class="op">=</span> <span class="st">&#39;black&#39;</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>plt.hist(sample_df[<span class="st">&#39;Month&#39;</span>], bins<span class="op">=</span><span class="dv">12</span>, color<span class="op">=</span>colors, edgecolor<span class="op">=</span>edgecolor)</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Mois&#39;</span>)</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Fréquence&#39;</span>)</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Histogramme des mutations par mois&#39;</span>)</span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Personnalisation des axes</span></span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">13</span>))</span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>plt.gca().spines[<span class="st">&#39;top&#39;</span>].set_visible(<span class="va">False</span>)</span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a>plt.gca().spines[<span class="st">&#39;right&#39;</span>].set_visible(<span class="va">False</span>)</span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_61885747438f4f578435d64717659044/96656eca7001d9d35a6ca75893ec6c5d0aadaf03.png" /></p>
+</div>
+</div>
+<section
+id="changement-des-données-de-mois-en-données-par-saison-utilisables"
+class="cell markdown" data-collapsed="false">
+<h3>Changement des données de mois en données par saison
+utilisables</h3>
+</section>
+<div class="cell code" data-execution_count="20"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:56.486318567Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:45.383742857Z&quot;}"
+data-collapsed="false">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>dfz <span class="op">=</span>pd.DataFrame(pd.to_datetime(df[<span class="st">&#39;Date mutation&#39;</span>], dayfirst<span class="op">=</span><span class="va">True</span>))</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>dfz[<span class="st">&#39;Date mutation&#39;</span>] <span class="op">=</span> dfz[<span class="st">&#39;Date mutation&#39;</span>].dt.strftime(<span class="st">&#39;%m&#39;</span>)</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>datemapping <span class="op">=</span> {<span class="st">&quot;01&quot;</span>:<span class="dv">1</span>, <span class="st">&quot;02&quot;</span>:<span class="dv">1</span>,<span class="st">&quot;03&quot;</span>:<span class="dv">2</span>,<span class="st">&quot;04&quot;</span>:<span class="dv">2</span>, <span class="st">&quot;05&quot;</span>:<span class="dv">2</span>, <span class="st">&quot;06&quot;</span>:<span class="dv">3</span>,<span class="st">&quot;07&quot;</span>:<span class="dv">3</span>,<span class="st">&quot;08&quot;</span>:<span class="dv">3</span>, <span class="st">&quot;09&quot;</span>:<span class="dv">4</span>, <span class="st">&quot;10&quot;</span>:<span class="dv">4</span>,<span class="st">&quot;11&quot;</span>:<span class="dv">4</span>,<span class="st">&quot;12&quot;</span>:<span class="dv">1</span>}</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Date mutation&#39;</span>] <span class="op">=</span> dfz[<span class="st">&#39;Date mutation&#39;</span>].<span class="bu">map</span>(datemapping)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="21"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:37:56.489404682Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:56.487737938Z&quot;}"
+data-collapsed="false">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df[<span class="st">&#39;Date mutation&#39;</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>0          1
+1          1
+2          1
+3          1
+4          1
+          ..
+3803880    1
+3803881    1
+3803882    1
+3803883    1
+3803884    4
+Name: Date mutation, Length: 3803885, dtype: int64
+</code></pre>
+</div>
+</div>
+<div class="cell markdown"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T09:56:12.049140600Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T09:56:09.870231200Z&quot;}">
+<p>Histogramme de la valeur foncière.</p>
+</div>
+<div class="cell code" data-execution_count="22"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:38:00.040978343Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:37:56.489927843Z&quot;}">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertir les valeurs de la colonne &quot;Valeur fonciere&quot; en str</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>sample_df[<span class="st">&#39;Valeur fonciere&#39;</span>] <span class="op">=</span> sample_df[<span class="st">&#39;Valeur fonciere&#39;</span>].astype(<span class="bu">str</span>)</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">8</span>))  <span class="co"># Augmenter la taille du graphique</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Tracer l&#39;histogramme avec 20 intervalles (bins)</span></span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>plt.hist(sample_df[<span class="st">&#39;Valeur fonciere&#39;</span>], bins<span class="op">=</span><span class="dv">20</span>, color<span class="op">=</span><span class="st">&#39;lightblue&#39;</span>, edgecolor<span class="op">=</span><span class="st">&#39;black&#39;</span>)</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Personnalisation des axes et du titre</span></span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Valeur foncière&#39;</span>)</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Fréquence&#39;</span>)</span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Histogramme de la valeur foncière&#39;</span>)</span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajustement des marges</span></span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_61885747438f4f578435d64717659044/6cccce4c59e42ece8966e2a781bec85b7e5be916.png" /></p>
+</div>
+</div>
+<div class="cell markdown"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T09:56:16.640696800Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T09:56:16.210962900Z&quot;}">
+<p>Diagrammes à barres pour chaque colonne catégorielle.</p>
+</div>
+<div class="cell code" data-execution_count="23"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:38:00.221609355Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:38:00.057563960Z&quot;}">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>counts <span class="op">=</span> sample_df[<span class="st">&#39;B/T/Q&#39;</span>].value_counts()</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> counts.index</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">&#39;lightblue&#39;</span>, <span class="st">&#39;lightgreen&#39;</span>, <span class="st">&#39;orange&#39;</span>, <span class="st">&#39;pink&#39;</span>]</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>plt.bar(labels, counts, color<span class="op">=</span>colors, edgecolor<span class="op">=</span><span class="st">&#39;black&#39;</span>, linewidth<span class="op">=</span><span class="fl">1.2</span>)</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Personnalisation des axes et du titre</span></span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;B/T/Q&#39;</span>)</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Fréquence&#39;</span>)</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Diagramme à barres de B/T/Q&#39;</span>)</span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajustement des marges</span></span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;1=Rien</span><span class="ch">\n</span><span class="st">2=Bis</span><span class="ch">\n</span><span class="st">3=Ter</span><span class="ch">\n</span><span class="st">4=Quarter&quot;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_61885747438f4f578435d64717659044/68ebea8649f72f2be5fe2e896b516da6f1593af8.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>1=Rien
+2=Bis
+3=Ter
+4=Quarter
+</code></pre>
+</div>
+</div>
+<div class="cell markdown"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T10:08:17.905899800Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T10:08:16.342549500Z&quot;}">
+<p>Nuage de points pour la relation entre ces deux colonnes.</p>
+</div>
+<div class="cell code" data-execution_count="24"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:38:00.379364215Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:38:00.210085678Z&quot;}">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Tracer le nuage de points</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>plt.scatter(sample_df[<span class="st">&#39;Surface reelle bati&#39;</span>], sample_df[<span class="st">&#39;Nombre pieces principales&#39;</span>], color<span class="op">=</span><span class="st">&#39;lightblue&#39;</span>, edgecolor<span class="op">=</span><span class="st">&#39;black&#39;</span>, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Personnalisation des axes et du titre</span></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Surface réelle bâtie&#39;</span>)</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Nombre de pièces principales&#39;</span>)</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Nuage de points : Surface réelle bâtie vs Nombre de pièces principales&#39;</span>)</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajustement des marges</span></span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_61885747438f4f578435d64717659044/493366dee4864d0328853f2992506b10783f9b8c.png" /></p>
+</div>
+</div>
+<section id="normalisation" class="cell markdown"
+data-collapsed="false">
+<h1>Normalisation</h1>
+</section>
+<div class="cell code" data-execution_count="25"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:38:00.790889758Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:38:00.380117478Z&quot;}"
+data-collapsed="false">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>colonnes_numeriques <span class="op">=</span> [<span class="st">&#39;Valeur fonciere&#39;</span>, <span class="st">&#39;Nombre de lots&#39;</span>, <span class="st">&#39;B/T/Q&#39;</span>, <span class="st">&#39;Surface reelle bati&#39;</span>, <span class="st">&#39;Nombre pieces principales&#39;</span>, <span class="st">&#39;Code postal&#39;</span>, <span class="st">&quot;Nature mutation&quot;</span>, <span class="st">&quot;Date mutation&quot;</span>, <span class="st">&quot;Surface terrain&quot;</span>]</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Remplacer les valeurs &#39;None&#39; par NaN dans les colonnes numériques</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>df[colonnes_numeriques] <span class="op">=</span> df[colonnes_numeriques].replace(<span class="st">&#39;None&#39;</span>, np.nan)</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Créez une instance de MinMaxScaler</span></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> MinMaxScaler()</span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Appliquez la normalisation aux colonnes numériques</span></span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>df[colonnes_numeriques] <span class="op">=</span> scaler.fit_transform(df[colonnes_numeriques])</span></code></pre></div>
+</div>
+<section id="matrice-de-corrélation" class="cell markdown"
+data-collapsed="false">
+<h1>Matrice de corrélation</h1>
+</section>
+<div class="cell code" data-execution_count="26"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:38:01.681184147Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:38:00.817933936Z&quot;}"
+data-collapsed="false">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Sélectionner uniquement les colonnes numériques</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>colonnes_numeriques <span class="op">=</span> [<span class="st">&#39;Valeur fonciere&#39;</span>, <span class="st">&#39;Nombre de lots&#39;</span>, <span class="st">&#39;B/T/Q&#39;</span>, <span class="st">&#39;Surface reelle bati&#39;</span>, <span class="st">&#39;Nombre pieces principales&#39;</span>, <span class="st">&#39;Code postal&#39;</span>, <span class="st">&quot;Nature mutation&quot;</span>, <span class="st">&quot;Date mutation&quot;</span>, <span class="st">&quot;Surface terrain&quot;</span>]</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>df_numerique <span class="op">=</span> df[colonnes_numeriques]</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculer la matrice des corrélations</span></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>matrice_corr <span class="op">=</span> df_numerique.corr()</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Créer un heatmap des corrélations</span></span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a>sns.heatmap(matrice_corr, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>)</span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajouter des titres aux axes</span></span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Colonnes&#39;</span>)</span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Colonnes&#39;</span>)</span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajouter un titre au graphique</span></span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Matrice des corrélations&#39;</span>)</span>
+<span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-20"><a href="#cb35-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Afficher le graphique</span></span>
+<span id="cb35-21"><a href="#cb35-21" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_61885747438f4f578435d64717659044/4dc4d7121cdb495eeb105f5991f62f4b7d44a8bb.png" /></p>
+</div>
+</div>
+<section id="choix-des-modèles" class="cell markdown">
+<h1>Choix des modèles</h1>
+</section>
+<div class="cell code" data-execution_count="27"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:38:01.681717654Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:38:01.612779458Z&quot;}">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.columns)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Index([&#39;Date mutation&#39;, &#39;Nature mutation&#39;, &#39;Valeur fonciere&#39;, &#39;B/T/Q&#39;,
+       &#39;Type de voie&#39;, &#39;Code postal&#39;, &#39;Nombre de lots&#39;, &#39;Type local&#39;,
+       &#39;Surface reelle bati&#39;, &#39;Nombre pieces principales&#39;, &#39;Surface terrain&#39;],
+      dtype=&#39;object&#39;)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="28"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:43:07.680264135Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:38:01.613064242Z&quot;}">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Sélection des colonnes d&#39;entrée et de sortie</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> [<span class="st">&#39;Nombre de lots&#39;</span>, <span class="st">&#39;B/T/Q&#39;</span>, <span class="st">&#39;Surface reelle bati&#39;</span>, <span class="st">&#39;Nombre pieces principales&#39;</span>, <span class="st">&#39;Code postal&#39;</span>, <span class="st">&quot;Nature mutation&quot;</span>, <span class="st">&quot;Date mutation&quot;</span>, <span class="st">&quot;Surface terrain&quot;</span>]</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>target <span class="op">=</span> <span class="st">&#39;Valeur fonciere&#39;</span>  <span class="co"># Variable cible</span></span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtrage des données pour exclure les valeurs non numériques</span></span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a>filtered_df <span class="op">=</span> df.copy()</span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Suppression des lignes contenant des valeurs non numériques</span></span>
+<span id="cb38-9"><a href="#cb38-9" aria-hidden="true" tabindex="-1"></a>filtered_df <span class="op">=</span> filtered_df.dropna(subset<span class="op">=</span>features)</span>
+<span id="cb38-10"><a href="#cb38-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-11"><a href="#cb38-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Sélection des colonnes d&#39;entrée et de sortie après le filtrage</span></span>
+<span id="cb38-12"><a href="#cb38-12" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> filtered_df[features]</span>
+<span id="cb38-13"><a href="#cb38-13" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> filtered_df[target]</span>
+<span id="cb38-14"><a href="#cb38-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-15"><a href="#cb38-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Séparation des données en ensembles d&#39;entraînement et de test</span></span>
+<span id="cb38-16"><a href="#cb38-16" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb38-17"><a href="#cb38-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-18"><a href="#cb38-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Modèles</span></span>
+<span id="cb38-19"><a href="#cb38-19" aria-hidden="true" tabindex="-1"></a>models <span class="op">=</span> {</span>
+<span id="cb38-20"><a href="#cb38-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Ridge&#39;</span>: Ridge(),</span>
+<span id="cb38-21"><a href="#cb38-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Lasso&#39;</span>: LassoCV(),</span>
+<span id="cb38-22"><a href="#cb38-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Régression linéaire&#39;</span>: LinearRegression(),</span>
+<span id="cb38-23"><a href="#cb38-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;K-NN&#39;</span>: KNeighborsRegressor()</span>
+<span id="cb38-24"><a href="#cb38-24" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb38-25"><a href="#cb38-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-26"><a href="#cb38-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Boucle pour entraîner et évaluer chaque modèle</span></span>
+<span id="cb38-27"><a href="#cb38-27" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> model_name, model <span class="kw">in</span> models.items():</span>
+<span id="cb38-28"><a href="#cb38-28" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;</span><span class="ch">\n</span><span class="ss">Entraînement et évaluation du modèle </span><span class="sc">{</span>model_name<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb38-29"><a href="#cb38-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-30"><a href="#cb38-30" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Entraînement du modèle</span></span>
+<span id="cb38-31"><a href="#cb38-31" aria-hidden="true" tabindex="-1"></a>    model.fit(X_train, y_train)</span>
+<span id="cb38-32"><a href="#cb38-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-33"><a href="#cb38-33" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Prédiction sur l&#39;ensemble de test</span></span>
+<span id="cb38-34"><a href="#cb38-34" aria-hidden="true" tabindex="-1"></a>    y_pred <span class="op">=</span> model.predict(X_test)</span>
+<span id="cb38-35"><a href="#cb38-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-36"><a href="#cb38-36" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Évaluation des performances du modèle</span></span>
+<span id="cb38-37"><a href="#cb38-37" aria-hidden="true" tabindex="-1"></a>    mse <span class="op">=</span> mean_squared_error(y_test, y_pred)</span>
+<span id="cb38-38"><a href="#cb38-38" aria-hidden="true" tabindex="-1"></a>    r2 <span class="op">=</span> r2_score(y_test, y_pred)</span>
+<span id="cb38-39"><a href="#cb38-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-40"><a href="#cb38-40" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Mean Squared Error (MSE):&quot;</span>, mse)</span>
+<span id="cb38-41"><a href="#cb38-41" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Coefficient of Determination (R²):&quot;</span>, r2)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+Entraînement et évaluation du modèle Ridge
+Mean Squared Error (MSE): 2.813923497330877e-05
+Coefficient of Determination (R²): 0.003057007015951796
+
+Entraînement et évaluation du modèle Lasso
+Mean Squared Error (MSE): 2.8139699267927754e-05
+Coefficient of Determination (R²): 0.0030405575542832297
+
+Entraînement et évaluation du modèle Régression linéaire
+Mean Squared Error (MSE): 2.813556247469141e-05
+Coefficient of Determination (R²): 0.003187119713286779
+
+Entraînement et évaluation du modèle K-NN
+Mean Squared Error (MSE): 8.429654996607296e-06
+Coefficient of Determination (R²): 0.701346341145662
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" data-collapsed="false">
+<p>Modèle Ridge : Faible MSE, R² très faible, possible sous-performance
+dans la capture des relations entre les variables.</p>
+<p>Modèle Lasso : MSE similaire à Ridge, R² proche de zéro ou négatif,
+difficulté à capturer les relations entre les variables.</p>
+<p>Modèle K-NN : Faible MSE, R² élevé (environ 70%), bonne adaptation
+aux données et capture des relations entre les variables.</p>
+<p>Modèle Régression linéaire : MSE similaire à Ridge et Lasso, R² très
+faible, difficulté à expliquer la variabilité des données.</p>
+<p>Le modèle K-NN semble être le plus performant avec une faible MSE et
+un R² élevé. Les modèles Ridge et Lasso présentent des performances
+similaires, mais avec une capacité explicative plus faible. Le modèle de
+régression linéaire a une capacité explicative limitée.</p>
+</div>
+<div class="cell code" data-execution_count="29"
+data-ExecuteTime="{&quot;end_time&quot;:&quot;2023-06-27T19:44:11.788649832Z&quot;,&quot;start_time&quot;:&quot;2023-06-27T19:43:07.679625850Z&quot;}"
+data-collapsed="false">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Données d&#39;entraînement</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>feature <span class="op">=</span> [<span class="st">&#39;Valeur fonciere&#39;</span>,<span class="st">&#39;Nombre de lots&#39;</span>, <span class="st">&#39;B/T/Q&#39;</span>, <span class="st">&#39;Surface reelle bati&#39;</span>, <span class="st">&#39;Nombre pieces principales&#39;</span>, <span class="st">&#39;Code postal&#39;</span>, <span class="st">&quot;Nature mutation&quot;</span>, <span class="st">&quot;Date mutation&quot;</span>, <span class="st">&quot;Surface terrain&quot;</span>]</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>X_train <span class="op">=</span> np.array(df[feature].dropna())</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Création du modèle K-means avec 2 clusters</span></span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>kmeans <span class="op">=</span> KMeans(n_clusters<span class="op">=</span><span class="dv">20</span>, n_init<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Entraînement du modèle</span></span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>kmeans.fit(X_train)</span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Affichage des données d&#39;entraînement</span></span>
+<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a>plt.scatter(X_train[:, <span class="dv">0</span>], X_train[:, <span class="dv">1</span>], c<span class="op">=</span>kmeans.labels_, cmap<span class="op">=</span><span class="st">&#39;viridis&#39;</span>)</span>
+<span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a>plt.scatter(kmeans.cluster_centers_[:, <span class="dv">0</span>], kmeans.cluster_centers_[:, <span class="dv">1</span>], marker<span class="op">=</span><span class="st">&#39;x&#39;</span>, color<span class="op">=</span><span class="st">&#39;red&#39;</span>, s<span class="op">=</span><span class="dv">100</span>, label<span class="op">=</span><span class="st">&#39;Centroids&#39;</span>)</span>
+<span id="cb40-14"><a href="#cb40-14" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;X&#39;</span>)</span>
+<span id="cb40-15"><a href="#cb40-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Y&#39;</span>)</span>
+<span id="cb40-16"><a href="#cb40-16" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;K-means Clustering - Données d</span><span class="ch">\&#39;</span><span class="st">entraînement&#39;</span>)</span>
+<span id="cb40-17"><a href="#cb40-17" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb40-18"><a href="#cb40-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_61885747438f4f578435d64717659044/83f8c97630947bb257046fb042f6549877e532ee.png" /></p>
+</div>
+</div>
+<div class="cell markdown" data-collapsed="false">
+<p>L'utilisation de l'algorithme K-Means n'est pas optimale lorsque nous
+avons un grand nombre de données, car cela peut rendre la représentation
+et l'interprétation graphique difficiles en raison de la densité élevée
+des points.</p>
+</div>
+</body>
+</html>
